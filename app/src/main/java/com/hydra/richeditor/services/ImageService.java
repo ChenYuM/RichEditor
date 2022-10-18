@@ -13,7 +13,6 @@ import com.hydra.richeditor.utils.ToastUtils;
 
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStream;
 
 /**
  * 图片操作的服务类
@@ -42,6 +41,7 @@ public class ImageService {
         this.context = context;
     }
 
+    /**弹出选择窗口，拍照或者选择本地图片*/
     public void showChooseImageDialog(){
         new AlertDialog.Builder(context)
                 .setTitle("设置头像")
