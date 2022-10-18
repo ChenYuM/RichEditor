@@ -1,0 +1,2 @@
+com/hydra/editor/test/BuildConfig.java
+ com.hydra.editor.test.BuildConfig

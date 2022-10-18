@@ -1,0 +1,6 @@
+<resources>
+
+    <!--二级菜单容器的高度-->
+    <dimen name="menu_panel_height">55dp</dimen>
+
+</resources>

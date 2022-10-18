@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!--富文本编辑器的按钮颜色-->
+    <color name="editor_button_enabled">#333333</color>
+
+</resources>

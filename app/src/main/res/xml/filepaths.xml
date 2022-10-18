@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <root-path name="hydra_root" path="" />
+
+    <external-path name="hydra_update" path="hydra/update" />
+
+    <external-path name="hydra_images" path="hydra/images" />
+
+    <external-path name="hydra_dcim_images" path="DCIM"/>
+    <external-path name="hydra_camera_images" path="DCIM/Camera"/>
+
+    <external-path name="external_storage_root" path="." />
+
+</paths>

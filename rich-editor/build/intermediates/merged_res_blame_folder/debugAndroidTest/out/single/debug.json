@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h1_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h1_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_align_right.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_align_right.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h1.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h1.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h4_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h4_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_superscript_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_superscript_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h5.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h5.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_subscript_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_subscript_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_layout_rich_editor.xml.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\layout\\layout_rich_editor.xml"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_photo.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_photo.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_font_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_font_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_indent_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_indent_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_underline.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_underline.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_undo.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_undo.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_align_left.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_align_left.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_align_center_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_align_center_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_strikethrough_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_strikethrough_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_outdent.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_outdent.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h6_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h6_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h2.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h2.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_align_center.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_align_center.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_blockquote_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_blockquote_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_indent.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_indent.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h5_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h5_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_image_weibo_home_2.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\image_weibo_home_2.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_redo.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_redo.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_list_ol.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_list_ol.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_strikethrough.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_strikethrough.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_font.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_font.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h6.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h6.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_list_ul.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_list_ul.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_bold_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_bold_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_align_left_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_align_left_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h3.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h3.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_list_ol_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_list_ol_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h3_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h3_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_lean.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_lean.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_list_ul_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_list_ul_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h4.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h4.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_blockquote.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_blockquote.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_subscript.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_subscript.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_align_right_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_align_right_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_lean_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_lean_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_outdent_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_outdent_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_underline_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_underline_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h2_.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h2_.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_h.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_h.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_bold.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_bold.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\mipmap_icon_editor_superscript.png.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\mipmap\\icon_editor_superscript.png"
+    },
+    {
+        "merged": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_show_diarys.xml.flat",
+        "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\layout\\activity_show_diarys.xml"
+    }
+]

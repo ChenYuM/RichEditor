@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Java\\Android\\Workspaces\\RichEditor\\rich-editor\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,18",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,102,153,209,258,297,853",
+                        "endLines": "2,3,4,5,6,17,25",
+                        "endColumns": "46,50,55,48,38,12,24",
+                        "endOffsets": "97,148,204,253,292,848,1216"
+                    }
+                }
+            ]
+        }
+    ]
+}
