@@ -102,8 +102,15 @@ public class EditorView extends WebView {
         }
     }
 
+    private String lastState = null;
     private void stateCheck(String url) {
         String state = url.replaceFirst(SCHEME_STATE, "").toUpperCase(Locale.ENGLISH);
+        //防止重复执行
+        if(state.equals(lastState)){
+            return;
+        }
+        lastState = state;
+        //匹配枚举中的值，获取到当前的状态改变，进行数据处理
         List<EditorInputType> editorInputTypes = new ArrayList<>();
         for (EditorInputType editorInputType : EditorInputType.values()) {
             if (TextUtils.indexOf(state, editorInputType.name()) != -1) {

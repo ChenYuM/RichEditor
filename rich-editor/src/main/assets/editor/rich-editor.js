@@ -19,6 +19,7 @@ document.addEventListener("selectionchange", function() { RE.backuprange(); });
 // Initializations
 RE.callback = function() {
     window.location.href = "re-callback://"+RE.getHtml();
+    RE.enabledEditingItems();
 }
 // Initializations
 RE.focusCallback = function() {
@@ -283,7 +284,8 @@ RE.restorerange = function(){
     selection.addRange(range);
 }
 
-RE.enabledEditingItems = function(e) {
+/**提示页面切换了当前的状态*/
+RE.enabledEditingItems = function() {
     const items = [];
     if (document.queryCommandState('bold')) {
         items.push('bold');
@@ -312,9 +314,6 @@ RE.enabledEditingItems = function(e) {
     if (document.queryCommandState('justifyCenter')) {
         items.push('justifyCenter');
     }
-    if (document.queryCommandState('justifyFull')) {
-        items.push('justifyFull');
-    }
     if (document.queryCommandState('justifyLeft')) {
         items.push('justifyLeft');
     }
@@ -324,6 +323,9 @@ RE.enabledEditingItems = function(e) {
     if (document.queryCommandState('insertHorizontalRule')) {
         items.push('horizontalRule');
     }
+    if (document.queryCommandState('fontSize')) {
+        items.push('fontSize');
+    }
     const formatBlock = document.queryCommandValue('formatBlock');
     if (formatBlock.length > 0) {
         items.push(formatBlock);
@@ -331,6 +333,7 @@ RE.enabledEditingItems = function(e) {
 
     window.location.href = "re-state://" + encodeURI(items.join(','));
 }
+
 
 RE.focus = function() {
     const range = document.createRange();

@@ -16,6 +16,8 @@ import com.hydra.editor.listener.OnEditorPreviewListener;
 import com.hydra.editor.listener.OnImageSelectListener;
 import com.hydra.editor.view.EditorView;
 
+import java.util.Arrays;
+
 public class RichEditor extends LinearLayout implements View.OnClickListener {
 
     /**容器*/
@@ -89,10 +91,16 @@ public class RichEditor extends LinearLayout implements View.OnClickListener {
             editorButtonGroup.setVisibility(View.VISIBLE);
         });
         //文本输入框监听事件
-        mEditor.setOnTextChangeListener(text -> Log.d("mEditor", "html文本：" + text));
+        mEditor.setOnTextChangeListener(text -> Log.d("RichEditor", "html文本：" + text));
 
-        //创建按钮管理器，暂时不需要对象的实力，只需要new就好了
+        //创建按钮管理器
         this.editorButtonManager = new EditorButtonManager(getContext(), contentView, mEditor);
+
+        //编辑器的按钮状态改变事件
+        mEditor.setOnDecorationChangeListener((state, typeList)->{
+            Log.d("RichEditor", Arrays.toString(typeList.toArray()));
+            editorButtonManager.handleEditorStateChange(typeList);
+        });
     }
 
     /**

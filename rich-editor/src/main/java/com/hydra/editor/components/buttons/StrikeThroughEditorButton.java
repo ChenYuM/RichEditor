@@ -1,6 +1,7 @@
 package com.hydra.editor.components.buttons;
 
 import com.hydra.editor.R;
+import com.hydra.editor.common.EditorInputType;
 import com.hydra.editor.components.EditorButton;
 
 /**
@@ -40,5 +41,13 @@ public class StrikeThroughEditorButton extends EditorButton {
     @Override
     public void onEditorButtonClick() {
         this.editor.setStrikeThrough();
+    }
+
+    /**
+     * 控件的枚举类型
+     */
+    @Override
+    public EditorInputType getEditorInputType() {
+        return EditorInputType.STRIKETHROUGH;
     }
 }

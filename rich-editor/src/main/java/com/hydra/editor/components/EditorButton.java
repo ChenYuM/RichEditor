@@ -3,6 +3,7 @@ package com.hydra.editor.components;
 import android.view.View;
 import android.widget.ImageView;
 import com.hydra.editor.common.EditorConstant;
+import com.hydra.editor.common.EditorInputType;
 import com.hydra.editor.view.EditorView;
 
 /**
@@ -51,6 +52,14 @@ public abstract class EditorButton implements View.OnClickListener {
     /**按钮的id*/
     protected final ImageView getView(){
         return this.view;
+    }
+
+    /**
+     * 控件的枚举类型
+     * 用于遍历控件，设置是否激活
+     */
+    public EditorInputType getEditorInputType(){
+        return null;
     }
 
     /**初始化设置容器*/

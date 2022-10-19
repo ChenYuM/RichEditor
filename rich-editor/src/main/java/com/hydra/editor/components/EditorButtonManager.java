@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import com.hydra.editor.R;
 import com.hydra.editor.common.EditorConstant;
+import com.hydra.editor.common.EditorInputType;
 import com.hydra.editor.components.buttons.*;
 import com.hydra.editor.components.group.FontEditorButtonGroup;
 import com.hydra.editor.components.group.HButtonGroup;
@@ -16,6 +17,7 @@ import com.hydra.editor.components.group.TextColorEditorButtonGroup;
 import com.hydra.editor.view.EditorView;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -94,10 +96,9 @@ public class EditorButtonManager {
         this.addEditorButton(new UndoEditorButton());
         this.addEditorButton(new RedoEditorButton());
         //遍历，初始化
-        editorButtons.values()
-                .forEach(item->{
-                    item.initView(contentView, mEditor);
-                });
+        for (EditorButton item : editorButtons.values()) {
+            item.initView(contentView, mEditor);
+        }
     }
 
     /**添加按钮到列表里面*/
@@ -133,6 +134,22 @@ public class EditorButtonManager {
         }
     }
 
+
+    /**状态改变的时候，判断是否处理激活控件*/
+    public void handleEditorStateChange(List<EditorInputType> editorInputTypes){
+        //遍历，初始化
+        for (EditorButton item : editorButtons.values()) {
+            EditorInputType type = item.getEditorInputType();
+            if(type == null){
+                continue;
+            }
+            item.inactive();
+            if(editorInputTypes.contains(type)){
+                item.active();
+            }
+        }
+    }
+
     /**打开菜单容器*/
     public void openMenuPanel(View targetView){
         //隐藏里面所有的view，展示当前菜单的view
@@ -153,6 +170,7 @@ public class EditorButtonManager {
         }
     }
 
+    /**隐藏控件里面的所有view*/
     private void hideChildrenView(ViewGroup view){
         int childCount = view.getChildCount();
         for (int i = 0; i < childCount; i++) {

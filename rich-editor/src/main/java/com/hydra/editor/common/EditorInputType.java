@@ -21,7 +21,6 @@ public enum EditorInputType {
     ORDEREDLIST,
     UNORDEREDLIST,
     JUSTIFYCENTER,
-    JUSTIFYFULL,
     JUSTUFYLEFT,
     JUSTIFYRIGHT
 }

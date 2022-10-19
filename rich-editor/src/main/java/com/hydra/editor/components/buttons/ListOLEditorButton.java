@@ -2,6 +2,7 @@ package com.hydra.editor.components.buttons;
 
 import com.hydra.editor.R;
 import com.hydra.editor.common.EditorConstant;
+import com.hydra.editor.common.EditorInputType;
 import com.hydra.editor.components.EditorButton;
 
 /**
@@ -47,5 +48,13 @@ public class ListOLEditorButton extends EditorButton {
     @Override
     public void onEditorButtonClick() {
         this.editor.setNumbers();
+    }
+
+    /**
+     * 控件的枚举类型
+     */
+    @Override
+    public EditorInputType getEditorInputType() {
+        return EditorInputType.ORDEREDLIST;
     }
 }
