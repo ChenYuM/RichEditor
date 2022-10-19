@@ -323,9 +323,11 @@ RE.enabledEditingItems = function() {
     if (document.queryCommandState('insertHorizontalRule')) {
         items.push('horizontalRule');
     }
-    if (document.queryCommandState('fontSize')) {
-        items.push('fontSize');
-    }
+
+    //字体大小
+    let fontSize = document.queryCommandValue('fontSize')
+    items.push('H'+fontSize);
+
     const formatBlock = document.queryCommandValue('formatBlock');
     if (formatBlock.length > 0) {
         items.push(formatBlock);

@@ -22,5 +22,6 @@ public enum EditorInputType {
     UNORDEREDLIST,
     JUSTIFYCENTER,
     JUSTUFYLEFT,
-    JUSTIFYRIGHT
+    JUSTIFYRIGHT,
+    BLOCKQUOTE,
 }

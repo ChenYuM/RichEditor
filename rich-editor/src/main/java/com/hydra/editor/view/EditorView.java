@@ -110,11 +110,15 @@ public class EditorView extends WebView {
             return;
         }
         lastState = state;
+        String[] array = state.split(",");
         //匹配枚举中的值，获取到当前的状态改变，进行数据处理
         List<EditorInputType> editorInputTypes = new ArrayList<>();
-        for (EditorInputType editorInputType : EditorInputType.values()) {
-            if (TextUtils.indexOf(state, editorInputType.name()) != -1) {
-                editorInputTypes.add(editorInputType);
+        for(String item : array){
+            for (EditorInputType editorInputType : EditorInputType.values()) {
+                if (editorInputType.name().equalsIgnoreCase(item)) {
+                    editorInputTypes.add(editorInputType);
+                    break;
+                }
             }
         }
 
