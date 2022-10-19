@@ -326,7 +326,16 @@ RE.enabledEditingItems = function() {
 
     //字体大小
     let fontSize = document.queryCommandValue('fontSize')
-    items.push('H'+fontSize);
+    if(fontSize){
+        items.push('H'+fontSize);
+    }
+
+    //字体颜色
+    let foreColor = document.queryCommandValue('foreColor')
+    foreColor = RE.convertColorToHex(foreColor)
+    if(foreColor){
+        items.push('foreColor:'+foreColor);
+    }
 
     const formatBlock = document.queryCommandValue('formatBlock');
     if (formatBlock.length > 0) {
@@ -334,6 +343,32 @@ RE.enabledEditingItems = function() {
     }
 
     window.location.href = "re-state://" + encodeURI(items.join(','));
+}
+
+
+/**颜色的rgb值转换为#开头的16进制*/
+RE.convertColorToHex = function (color){
+    if(!color){
+        return null;
+    }
+    color = color.replace(/\s/g, '')
+    //rgb开头的，如：rbg(0, 0, 0)
+    if(color.startsWith('rgb\(')){
+        color = color.substring(4, color.length-1)
+        let arr = color.split(",")
+        color = "#"+convertNumberToHex(arr[0]) + convertNumberToHex(arr[1]) + convertNumberToHex(arr[2])
+    }
+    return color
+}
+
+
+/**数字转16进制*/
+const convertNumberToHex = function (num){
+    let result = Number(num).toString(16)
+    if(num < 16){
+        result = '0'+result
+    }
+    return result
 }
 
 

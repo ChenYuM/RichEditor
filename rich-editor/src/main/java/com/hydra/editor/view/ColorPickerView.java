@@ -368,7 +368,6 @@ public class ColorPickerView extends View {
     }
 
     private void createIndicatorBitmap() {
-
         paintForIndicator.setColor(mIndicatorColor);
         int radius = 3;
         paintForIndicator.setShadowLayer(radius, 0, 0, Color.GRAY);

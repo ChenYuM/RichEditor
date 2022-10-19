@@ -1,5 +1,6 @@
 package com.hydra.editor.components.group;
 
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.view.View;
 import com.hydra.editor.R;
@@ -14,6 +15,9 @@ import com.hydra.editor.view.EditorView;
  * @Date 2022/10/12 16:04
  */
 public class TextColorEditorButtonGroup extends EditorButtonGroup {
+
+    /*颜色选择器*/
+    private ColorPickerView colorPickerView;
 
     /**
      * 图标按钮的id
@@ -64,8 +68,8 @@ public class TextColorEditorButtonGroup extends EditorButtonGroup {
      * 初始化颜色选择器
      */
     private void initColorPicker() {
-        ColorPickerView right = contentView.findViewById(R.id.cpv_main_color);
-        right.setOnColorPickerChangeListener(new ColorPickerView.OnColorPickerChangeListener() {
+        colorPickerView = contentView.findViewById(R.id.cpv_main_color);
+        colorPickerView.setOnColorPickerChangeListener(new ColorPickerView.OnColorPickerChangeListener() {
             @Override
             public void onColorChanged(ColorPickerView picker, int color) {
                 view.setImageDrawable(new ColorDrawable(color));
@@ -80,6 +84,13 @@ public class TextColorEditorButtonGroup extends EditorButtonGroup {
             public void onStopTrackingTouch(ColorPickerView picker) {
             }
         });
+    }
+
+    /**设置字体颜色*/
+    public void setColor(String colorStr){
+        int color = Color.parseColor(colorStr);
+        view.setImageDrawable(new ColorDrawable(color));
+//        colorPickerView.setIndicatorColor(color);
     }
 
 }

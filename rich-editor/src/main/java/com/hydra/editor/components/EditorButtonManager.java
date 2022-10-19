@@ -150,6 +150,14 @@ public class EditorButtonManager {
         }
     }
 
+    /**设置字体颜色*/
+    public void setForeColor(String color){
+        EditorButton textColorView = editorButtons.get(R.id.button_text_color);
+        if(textColorView != null){
+            ((TextColorEditorButtonGroup)textColorView).setColor(color);
+        }
+    }
+
     /**打开菜单容器*/
     public void openMenuPanel(View targetView){
         //隐藏里面所有的view，展示当前菜单的view

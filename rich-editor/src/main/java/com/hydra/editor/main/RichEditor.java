@@ -100,6 +100,17 @@ public class RichEditor extends LinearLayout implements View.OnClickListener {
         mEditor.setOnDecorationChangeListener((state, typeList)->{
             Log.d("RichEditor", Arrays.toString(typeList.toArray()));
             editorButtonManager.handleEditorStateChange(typeList);
+
+            //处理文本颜色
+            String[] states = state.split(",");
+            String key = "FORECOLOR:";
+            for(String item: states){
+                if(item.startsWith(key)){
+                    String foreColor = item.substring(key.length());
+                    editorButtonManager.setForeColor(foreColor);
+                }
+            }
+
         });
     }
 
